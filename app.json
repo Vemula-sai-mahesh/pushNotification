@@ -11,7 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.wa2goose.PushNotifications2"
@@ -29,7 +31,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "e9370c3c-47e4-477b-9344-1a211f2aead2"
+        "projectId": "61d38ead-f40b-4caf-a0ca-c737e05fac28"
       }
     }
   }

@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "865486165032",
-    "project_id": "expopushnotifications2",
-    "storage_bucket": "expopushnotifications2.appspot.com"
+    "project_number": "349477617412",
+    "project_id": "pushnotifications-23a58",
+    "storage_bucket": "pushnotifications-23a58.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:865486165032:android:59b4b82146399010c9d11d",
+        "mobilesdk_app_id": "1:349477617412:android:43e2d0f404cafe74649a51",
         "android_client_info": {
           "package_name": "com.wa2goose.PushNotifications2"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDKP-Z465NNSVsrXAEIcAZEOxHRdI4Mtuk"
+          "current_key": "AIzaSyDblKvoLha8gNtM4PyoYPQ3-WGHohBPgH0"
         }
       ],
       "services": {

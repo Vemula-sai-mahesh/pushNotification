@@ -1,9 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import * as Device from "expo-device";
 import * as Notifications from "expo-notifications";
-
 import Constants from "expo-constants";
-
 import { Platform } from "react-native";
 
 export interface PushNotificationState {
@@ -50,6 +48,8 @@ export const usePushNotifications = (): PushNotificationState => {
       token = await Notifications.getExpoPushTokenAsync({
         projectId: Constants.expoConfig?.extra?.eas.projectId,
       });
+      console.log("Push token:", token);
+      return token; // Ensure the token is returned
     } else {
       alert("Must be using a physical device for Push notifications");
     }
